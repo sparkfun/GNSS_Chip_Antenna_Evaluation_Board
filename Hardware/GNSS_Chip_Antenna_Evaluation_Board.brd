@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -165,14 +165,8 @@
 <wire x1="0" y1="0" x2="0" y2="35.56" width="0.2032" layer="20"/>
 <text x="0" y="-0.0635" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
 <text x="20.701" y="0.254" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">V10</text>
-<rectangle x1="3.175" y1="22.352" x2="4.572" y2="30.607" layer="43"/>
-<rectangle x1="8.255" y1="23.114" x2="9.906" y2="30.607" layer="43"/>
-<rectangle x1="50.419" y1="10.795" x2="51.054" y2="11.303" layer="43"/>
-<rectangle x1="52.959" y1="10.668" x2="53.467" y2="11.557" layer="43"/>
-<rectangle x1="13.843" y1="29.337" x2="15.24" y2="31.623" layer="43"/>
-<rectangle x1="2.794" y1="12.954" x2="11.938" y2="25.019" layer="43"/>
 <wire x1="25.4" y1="38.1" x2="25.4" y2="-2.54" width="0.1524" layer="20"/>
-<text x="71.12" y="22.86" size="1.27" layer="51">0.8mm Board Thickness</text>
+<text x="67.31" y="39.37" size="1.27" layer="51">0.8mm Board Thickness</text>
 <text x="25.4" y="-3.81" size="1.27" layer="20" ratio="15" align="center">v-score</text>
 <wire x1="48.26" y1="38.1" x2="48.26" y2="-2.54" width="0.1524" layer="20"/>
 <text x="48.26" y="-3.81" size="1.27" layer="20" ratio="15" align="center">v-score</text>
@@ -453,160 +447,506 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.637" y="0.789"/>
 </polygon>
 </package>
-</packages>
-</library>
-<library name="GPS Chip Antennas">
-<packages>
-<package name="W3011">
-<smd name="3" x="-1.6" y="0" dx="0.8" dy="1.6" layer="1"/>
-<smd name="2" x="1.6" y="-0.475" dx="0.8" dy="0.65" layer="1"/>
-<smd name="1" x="1.6" y="0.475" dx="0.8" dy="0.65" layer="1"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="-2" y1="3.05" x2="2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="2" y1="3.05" x2="2" y2="-1.2" width="0.05" layer="51"/>
-<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.05" layer="51"/>
-<rectangle x1="-2" y1="-1.25" x2="2" y2="3.05" layer="42"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="-0.9" y1="0.8" x2="0.9" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8" width="0.1524" layer="21"/>
-<text x="0" y="1.4" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<rectangle x1="-2" y1="1" x2="2" y2="3" layer="41"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
-<rectangle x1="-2" y1="-1.2" x2="2" y2="-1" layer="41"/>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
-<package name="TE_PUCK">
-<circle x="0" y="0" radius="8" width="0.05" layer="51"/>
-<smd name="1" x="-1.2" y="-7.03" dx="2.4" dy="2.4" layer="1"/>
-<smd name="3" x="6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R300"/>
-<smd name="2" x="-6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R60"/>
-<smd name="S" x="1.75" y="-7.28" dx="1.4" dy="1.74" layer="1"/>
-<circle x="0" y="0" radius="14" width="0.05" layer="39"/>
-<text x="0" y="0.635" size="0.508" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="-1.27" size="0.508" layer="27" font="vector" align="center">&gt;tValue</text>
-<wire x1="-5.8" y1="5.5" x2="5.8" y2="5.5" width="0.2032" layer="21" curve="-93.807969"/>
-<wire x1="7.7" y1="2.3" x2="3" y2="-7.4" width="0.2032" layer="21" curve="-86.010171"/>
-<wire x1="-2.9" y1="-7.4" x2="-7.7" y2="2.3" width="0.2032" layer="21" curve="-86.13748"/>
-</package>
-<package name="MOLEX_GNSS_CUBE">
-<smd name="NC2" x="-3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<smd name="NC3" x="3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<smd name="NC1" x="-3.905" y="-5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<wire x1="-5.86" y1="5.86" x2="5.86" y2="5.86" width="0.05" layer="51"/>
-<wire x1="5.86" y1="5.86" x2="5.86" y2="-5.86" width="0.05" layer="51"/>
-<wire x1="5.86" y1="-5.86" x2="-5.86" y2="-5.86" width="0.05" layer="51"/>
-<wire x1="-5.86" y1="-5.86" x2="-5.86" y2="5.86" width="0.05" layer="51"/>
-<smd name="GND" x="3.545" y="-5.2" dx="1.3" dy="1.32" layer="1" rot="R180"/>
-<smd name="FEED" x="5.33" y="-3.4" dx="1.3" dy="1.61" layer="1" rot="R270"/>
-<rectangle x1="3.295" y1="-7.5" x2="3.795" y2="-5" layer="51"/>
-<rectangle x1="4.125" y1="-4.45" x2="4.5" y2="-2.35" layer="41"/>
-<wire x1="-5.842" y1="-5.842" x2="-5.842" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="5.842" x2="1.905" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="5.842" x2="5.842" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="-4.445" x2="5.842" y2="-5.842" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="-5.842" x2="4.572" y2="-5.842" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-5.842" x2="-1.905" y2="-5.842" width="0.1524" layer="21"/>
-<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="0.889" size="0.508" layer="27" font="vector" align="center">&gt;tValue</text>
-<rectangle x1="5.0125" y1="-3.5875" x2="5.3875" y2="-1.4875" layer="41" rot="R90"/>
-<rectangle x1="5.0125" y1="-5.2875" x2="5.3875" y2="-3.1875" layer="41" rot="R90"/>
-<rectangle x1="3.3625" y1="-5.3875" x2="3.7375" y2="-3.2875" layer="41" rot="R90"/>
-<rectangle x1="4.225" y1="-6.95" x2="4.6" y2="-4.5" layer="41"/>
-<rectangle x1="3.795" y1="-6.95" x2="4.2375" y2="-5.975" layer="41"/>
-<rectangle x1="2.845" y1="-6.95" x2="3.2875" y2="-5.625" layer="41"/>
-<wire x1="3.1" y1="-5.9" x2="3.1" y2="-6.94" width="0.05" layer="41"/>
-<rectangle x1="2.5" y1="-6.95" x2="2.875" y2="-4.5" layer="41" rot="R180"/>
-</package>
-<package name="MOLEX_GNSS_CHIP">
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
-<smd name="2" x="-1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="3" x="-1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="FEED" x="1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="1" x="1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
-<wire x1="-2" y1="6" x2="2" y2="6" width="0.05" layer="51"/>
-<wire x1="2" y1="6" x2="2" y2="-1" width="0.05" layer="51"/>
-<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.05" layer="51"/>
-<wire x1="-2" y1="-1" x2="-2" y2="6" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
-<wire x1="-1.6" y1="0.1" x2="-1.6" y2="-0.1" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="0.1" x2="1.6" y2="-0.1" width="0.1524" layer="21"/>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<text x="0" y="1.651" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1.27" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<rectangle x1="-2" y1="-1" x2="2" y2="6" layer="42"/>
-<rectangle x1="-2" y1="1" x2="2" y2="6" layer="41"/>
-<rectangle x1="-0.8" y1="-1" x2="0.8" y2="1" layer="41"/>
-<rectangle x1="-2" y1="-0.2" x2="2" y2="0.2" layer="41"/>
-</package>
-<package name="MLOEX_GNSS_MOLDED">
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.05" layer="51"/>
-<smd name="1" x="-0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="FEED" x="0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="3" x="0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="2" x="-0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
-<rectangle x1="-2.64" y1="-3.735" x2="2.64" y2="3.735" layer="42"/>
-<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.9" x2="1.5" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.5" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="-0.4" x2="1.5" y2="-0.9" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="0.5" x2="1.9" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.9" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.5" x2="1.1" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.1" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<text x="-1.27" y="-1.27" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="-1.27" y="-1.651" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0.381" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="0" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<wire x1="-2.6" y1="3.7" x2="2.6" y2="3.7" width="0.05" layer="51"/>
-<wire x1="2.6" y1="3.7" x2="2.6" y2="-3.7" width="0.05" layer="51"/>
-<wire x1="2.6" y1="-3.7" x2="-2.6" y2="-3.7" width="0.05" layer="51"/>
-<wire x1="-2.6" y1="-3.7" x2="-2.6" y2="3.7" width="0.05" layer="51"/>
-<rectangle x1="-2.64" y1="-1.2" x2="2.64" y2="3.735" layer="41"/>
-<rectangle x1="-2.64" y1="-3.735" x2="0.2" y2="-1.2" layer="41"/>
-<rectangle x1="0.2" y1="-3.735" x2="2.64" y2="-2.7" layer="41"/>
-</package>
-<package name="W3062A">
-<wire x1="-3.5" y1="0.78" x2="3.5" y2="0.78" width="0.05" layer="51"/>
-<wire x1="3.5" y1="0.78" x2="3.5" y2="-0.78" width="0.05" layer="51"/>
-<wire x1="3.5" y1="-0.78" x2="-3.5" y2="-0.78" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="-0.78" x2="-3.5" y2="0.78" width="0.05" layer="51"/>
-<smd name="GND" x="-3" y="0" dx="1.25" dy="1.61" layer="1"/>
-<smd name="FEED" x="3" y="0" dx="1.25" dy="1.61" layer="1"/>
-<rectangle x1="-3.5" y1="-0.68" x2="-2.5" y2="0.68" layer="51"/>
-<rectangle x1="2.49" y1="-0.68" x2="3.49" y2="0.68" layer="51"/>
-<rectangle x1="-3.9" y1="-2.625" x2="3.9" y2="2.625" layer="42"/>
-<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.1524" layer="21"/>
-<text x="0" y="2" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1.4" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<wire x1="-3.9" y1="2.6" x2="3.9" y2="2.6" width="0.05" layer="51"/>
-<wire x1="3.9" y1="2.6" x2="3.9" y2="-2.6" width="0.05" layer="51"/>
-<wire x1="3.9" y1="-2.6" x2="-3.9" y2="-2.6" width="0.05" layer="51"/>
-<wire x1="-3.9" y1="-2.6" x2="-3.9" y2="2.6" width="0.05" layer="51"/>
-<rectangle x1="3.5" y1="-0.8" x2="3.9" y2="-0.6" layer="41"/>
-<rectangle x1="3.5" y1="0.6" x2="3.9" y2="0.8" layer="41"/>
-<rectangle x1="-3.9" y1="0.8" x2="3.9" y2="2.6" layer="41"/>
-<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="-0.8" layer="41"/>
-<rectangle x1="-3.9" y1="-0.8" x2="-3.5" y2="-0.6" layer="41"/>
-<rectangle x1="-3.9" y1="0.6" x2="-3.5" y2="0.8" layer="41"/>
-<rectangle x1="-2.3" y1="-0.8" x2="2.3" y2="0.8" layer="41"/>
+<package name="SFE_LOGO_NAME_.1">
+<description>&lt;h3&gt;SparkFun Font Logo - 0.1" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun font logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_NAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
+<vertex x="-5.099" y="-0.105"/>
+<vertex x="-5.089" y="-0.165"/>
+<vertex x="-5.069" y="-0.205"/>
+<vertex x="-5.049" y="-0.255"/>
+<vertex x="-5.009" y="-0.285"/>
+<vertex x="-4.909" y="-0.325"/>
+<vertex x="-4.859" y="-0.335"/>
+<vertex x="-4.799" y="-0.345"/>
+<vertex x="-4.759" y="-0.335"/>
+<vertex x="-4.719" y="-0.335"/>
+<vertex x="-4.669" y="-0.315"/>
+<vertex x="-4.629" y="-0.305"/>
+<vertex x="-4.569" y="-0.245"/>
+<vertex x="-4.549" y="-0.205"/>
+<vertex x="-4.549" y="-0.155"/>
+<vertex x="-4.559" y="-0.115"/>
+<vertex x="-4.579" y="-0.085"/>
+<vertex x="-4.609" y="-0.055"/>
+<vertex x="-4.659" y="-0.025"/>
+<vertex x="-4.799" y="0.015"/>
+<vertex x="-4.889" y="0.035"/>
+<vertex x="-4.989" y="0.055"/>
+<vertex x="-5.069" y="0.085"/>
+<vertex x="-5.149" y="0.105"/>
+<vertex x="-5.229" y="0.135"/>
+<vertex x="-5.299" y="0.175"/>
+<vertex x="-5.399" y="0.275"/>
+<vertex x="-5.429" y="0.355"/>
+<vertex x="-5.439" y="0.435"/>
+<vertex x="-5.419" y="0.565"/>
+<vertex x="-5.379" y="0.665"/>
+<vertex x="-5.319" y="0.735"/>
+<vertex x="-5.239" y="0.795"/>
+<vertex x="-5.149" y="0.845"/>
+<vertex x="-5.049" y="0.875"/>
+<vertex x="-4.939" y="0.885"/>
+<vertex x="-4.819" y="0.895"/>
+<vertex x="-4.599" y="0.875"/>
+<vertex x="-4.499" y="0.845"/>
+<vertex x="-4.409" y="0.795"/>
+<vertex x="-4.329" y="0.735"/>
+<vertex x="-4.259" y="0.655"/>
+<vertex x="-4.219" y="0.555"/>
+<vertex x="-4.199" y="0.445"/>
+<vertex x="-4.569" y="0.445"/>
+<vertex x="-4.579" y="0.495"/>
+<vertex x="-4.589" y="0.535"/>
+<vertex x="-4.649" y="0.595"/>
+<vertex x="-4.689" y="0.615"/>
+<vertex x="-4.729" y="0.625"/>
+<vertex x="-4.779" y="0.635"/>
+<vertex x="-4.869" y="0.635"/>
+<vertex x="-4.899" y="0.625"/>
+<vertex x="-4.939" y="0.625"/>
+<vertex x="-4.969" y="0.615"/>
+<vertex x="-5.029" y="0.575"/>
+<vertex x="-5.039" y="0.545"/>
+<vertex x="-5.049" y="0.505"/>
+<vertex x="-5.039" y="0.455"/>
+<vertex x="-5.009" y="0.415"/>
+<vertex x="-4.969" y="0.385"/>
+<vertex x="-4.909" y="0.365"/>
+<vertex x="-4.769" y="0.325"/>
+<vertex x="-4.689" y="0.315"/>
+<vertex x="-4.609" y="0.295"/>
+<vertex x="-4.519" y="0.275"/>
+<vertex x="-4.439" y="0.245"/>
+<vertex x="-4.369" y="0.215"/>
+<vertex x="-4.299" y="0.175"/>
+<vertex x="-4.239" y="0.125"/>
+<vertex x="-4.199" y="0.065"/>
+<vertex x="-4.169" y="-0.015"/>
+<vertex x="-4.159" y="-0.105"/>
+<vertex x="-4.169" y="-0.235"/>
+<vertex x="-4.219" y="-0.335"/>
+<vertex x="-4.279" y="-0.425"/>
+<vertex x="-4.359" y="-0.485"/>
+<vertex x="-4.459" y="-0.535"/>
+<vertex x="-4.569" y="-0.575"/>
+<vertex x="-4.689" y="-0.595"/>
+<vertex x="-4.929" y="-0.595"/>
+<vertex x="-5.049" y="-0.575"/>
+<vertex x="-5.159" y="-0.535"/>
+<vertex x="-5.259" y="-0.485"/>
+<vertex x="-5.339" y="-0.425"/>
+<vertex x="-5.409" y="-0.335"/>
+<vertex x="-5.449" y="-0.225"/>
+<vertex x="-5.469" y="-0.105"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-2.989" y="-0.105"/>
+<vertex x="-2.969" y="-0.025"/>
+<vertex x="-2.959" y="0.055"/>
+<vertex x="-2.949" y="0.145"/>
+<vertex x="-2.569" y="0.135"/>
+<vertex x="-2.579" y="-0.005"/>
+<vertex x="-2.599" y="-0.145"/>
+<vertex x="-2.649" y="-0.265"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-2.649" y="-0.265"/>
+<vertex x="-2.719" y="-0.375"/>
+<vertex x="-2.809" y="-0.465"/>
+<vertex x="-2.909" y="-0.535"/>
+<vertex x="-3.039" y="-0.585"/>
+<vertex x="-3.189" y="-0.595"/>
+<vertex x="-3.249" y="-0.595"/>
+<vertex x="-3.309" y="-0.585"/>
+<vertex x="-3.429" y="-0.545"/>
+<vertex x="-3.479" y="-0.515"/>
+<vertex x="-3.529" y="-0.475"/>
+<vertex x="-3.569" y="-0.435"/>
+<vertex x="-3.609" y="-0.385"/>
+<vertex x="-3.609" y="-1.405"/>
+<vertex x="-3.659" y="-1.365"/>
+<vertex x="-3.709" y="-1.315"/>
+<vertex x="-3.809" y="-1.235"/>
+<vertex x="-3.899" y="-1.145"/>
+<vertex x="-3.949" y="-1.105"/>
+<vertex x="-3.999" y="-1.055"/>
+<vertex x="-3.999" y="0.785"/>
+<vertex x="-3.949" y="0.795"/>
+<vertex x="-3.909" y="0.805"/>
+<vertex x="-3.859" y="0.815"/>
+<vertex x="-3.819" y="0.815"/>
+<vertex x="-3.719" y="0.835"/>
+<vertex x="-3.679" y="0.845"/>
+<vertex x="-3.629" y="0.855"/>
+<vertex x="-3.629" y="0.675"/>
+<vertex x="-3.549" y="0.775"/>
+<vertex x="-3.449" y="0.835"/>
+<vertex x="-3.389" y="0.865"/>
+<vertex x="-3.209" y="0.895"/>
+<vertex x="-3.049" y="0.875"/>
+<vertex x="-2.919" y="0.825"/>
+<vertex x="-2.809" y="0.755"/>
+<vertex x="-2.719" y="0.665"/>
+<vertex x="-2.649" y="0.545"/>
+<vertex x="-2.599" y="0.415"/>
+<vertex x="-2.569" y="0.275"/>
+<vertex x="-2.569" y="0.135"/>
+<vertex x="-2.949" y="0.145"/>
+<vertex x="-2.969" y="0.305"/>
+<vertex x="-2.999" y="0.385"/>
+<vertex x="-3.029" y="0.455"/>
+<vertex x="-3.079" y="0.515"/>
+<vertex x="-3.139" y="0.555"/>
+<vertex x="-3.209" y="0.585"/>
+<vertex x="-3.289" y="0.595"/>
+<vertex x="-3.379" y="0.585"/>
+<vertex x="-3.449" y="0.555"/>
+<vertex x="-3.509" y="0.515"/>
+<vertex x="-3.559" y="0.455"/>
+<vertex x="-3.589" y="0.385"/>
+<vertex x="-3.629" y="0.225"/>
+<vertex x="-3.629" y="0.055"/>
+<vertex x="-3.589" y="-0.105"/>
+<vertex x="-3.509" y="-0.225"/>
+<vertex x="-3.449" y="-0.265"/>
+<vertex x="-3.379" y="-0.295"/>
+<vertex x="-3.289" y="-0.305"/>
+<vertex x="-3.199" y="-0.295"/>
+<vertex x="-3.129" y="-0.265"/>
+<vertex x="-3.069" y="-0.225"/>
+<vertex x="-2.989" y="-0.105"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-1.979" y="0.245"/>
+<vertex x="-1.889" y="0.265"/>
+<vertex x="-1.799" y="0.275"/>
+<vertex x="-1.719" y="0.285"/>
+<vertex x="-1.679" y="0.075"/>
+<vertex x="-1.699" y="0.065"/>
+<vertex x="-1.739" y="0.065"/>
+<vertex x="-1.769" y="0.055"/>
+<vertex x="-1.809" y="0.055"/>
+<vertex x="-1.839" y="0.045"/>
+<vertex x="-1.859" y="0.045"/>
+<vertex x="-1.879" y="0.035"/>
+<vertex x="-1.899" y="0.035"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-1.899" y="0.035"/>
+<vertex x="-1.999" y="-0.015"/>
+<vertex x="-2.039" y="-0.055"/>
+<vertex x="-2.059" y="-0.095"/>
+<vertex x="-2.059" y="-0.135"/>
+<vertex x="-2.069" y="-0.165"/>
+<vertex x="-2.059" y="-0.185"/>
+<vertex x="-2.059" y="-0.205"/>
+<vertex x="-2.049" y="-0.235"/>
+<vertex x="-2.049" y="-0.245"/>
+<vertex x="-2.039" y="-0.265"/>
+<vertex x="-2.009" y="-0.295"/>
+<vertex x="-1.989" y="-0.305"/>
+<vertex x="-1.979" y="-0.315"/>
+<vertex x="-1.959" y="-0.325"/>
+<vertex x="-1.939" y="-0.325"/>
+<vertex x="-1.919" y="-0.335"/>
+<vertex x="-1.769" y="-0.335"/>
+<vertex x="-1.649" y="-0.305"/>
+<vertex x="-1.619" y="-0.285"/>
+<vertex x="-1.569" y="-0.235"/>
+<vertex x="-1.559" y="-0.205"/>
+<vertex x="-1.539" y="-0.185"/>
+<vertex x="-1.529" y="-0.155"/>
+<vertex x="-1.529" y="-0.125"/>
+<vertex x="-1.519" y="-0.105"/>
+<vertex x="-1.519" y="-0.075"/>
+<vertex x="-1.509" y="-0.055"/>
+<vertex x="-1.509" y="0.135"/>
+<vertex x="-1.529" y="0.125"/>
+<vertex x="-1.539" y="0.115"/>
+<vertex x="-1.559" y="0.105"/>
+<vertex x="-1.569" y="0.095"/>
+<vertex x="-1.589" y="0.095"/>
+<vertex x="-1.629" y="0.075"/>
+<vertex x="-1.679" y="0.075"/>
+<vertex x="-1.719" y="0.285"/>
+<vertex x="-1.649" y="0.295"/>
+<vertex x="-1.589" y="0.315"/>
+<vertex x="-1.549" y="0.345"/>
+<vertex x="-1.519" y="0.385"/>
+<vertex x="-1.509" y="0.435"/>
+<vertex x="-1.509" y="0.465"/>
+<vertex x="-1.519" y="0.495"/>
+<vertex x="-1.519" y="0.515"/>
+<vertex x="-1.539" y="0.555"/>
+<vertex x="-1.569" y="0.585"/>
+<vertex x="-1.629" y="0.615"/>
+<vertex x="-1.649" y="0.615"/>
+<vertex x="-1.669" y="0.625"/>
+<vertex x="-1.739" y="0.625"/>
+<vertex x="-1.759" y="0.635"/>
+<vertex x="-1.789" y="0.625"/>
+<vertex x="-1.839" y="0.625"/>
+<vertex x="-1.869" y="0.615"/>
+<vertex x="-1.889" y="0.615"/>
+<vertex x="-1.929" y="0.595"/>
+<vertex x="-1.989" y="0.535"/>
+<vertex x="-2.009" y="0.495"/>
+<vertex x="-2.009" y="0.465"/>
+<vertex x="-2.019" y="0.445"/>
+<vertex x="-2.019" y="0.415"/>
+<vertex x="-2.409" y="0.415"/>
+<vertex x="-2.399" y="0.485"/>
+<vertex x="-2.389" y="0.535"/>
+<vertex x="-2.369" y="0.595"/>
+<vertex x="-2.339" y="0.645"/>
+<vertex x="-2.309" y="0.685"/>
+<vertex x="-2.269" y="0.725"/>
+<vertex x="-2.189" y="0.785"/>
+<vertex x="-2.139" y="0.815"/>
+<vertex x="-2.039" y="0.855"/>
+<vertex x="-1.859" y="0.885"/>
+<vertex x="-1.639" y="0.885"/>
+<vertex x="-1.579" y="0.875"/>
+<vertex x="-1.529" y="0.875"/>
+<vertex x="-1.479" y="0.865"/>
+<vertex x="-1.419" y="0.845"/>
+<vertex x="-1.379" y="0.835"/>
+<vertex x="-1.329" y="0.815"/>
+<vertex x="-1.289" y="0.795"/>
+<vertex x="-1.249" y="0.765"/>
+<vertex x="-1.179" y="0.695"/>
+<vertex x="-1.159" y="0.645"/>
+<vertex x="-1.139" y="0.605"/>
+<vertex x="-1.119" y="0.485"/>
+<vertex x="-1.119" y="-0.415"/>
+<vertex x="-1.109" y="-0.435"/>
+<vertex x="-1.109" y="-0.475"/>
+<vertex x="-1.099" y="-0.495"/>
+<vertex x="-1.099" y="-0.505"/>
+<vertex x="-1.089" y="-0.525"/>
+<vertex x="-1.089" y="-0.535"/>
+<vertex x="-1.079" y="-0.555"/>
+<vertex x="-1.079" y="-0.565"/>
+<vertex x="-1.469" y="-0.565"/>
+<vertex x="-1.469" y="-0.545"/>
+<vertex x="-1.479" y="-0.535"/>
+<vertex x="-1.479" y="-0.525"/>
+<vertex x="-1.489" y="-0.515"/>
+<vertex x="-1.489" y="-0.455"/>
+<vertex x="-1.499" y="-0.445"/>
+<vertex x="-1.499" y="-0.425"/>
+<vertex x="-1.519" y="-0.445"/>
+<vertex x="-1.539" y="-0.475"/>
+<vertex x="-1.569" y="-0.495"/>
+<vertex x="-1.599" y="-0.505"/>
+<vertex x="-1.629" y="-0.525"/>
+<vertex x="-1.649" y="-0.535"/>
+<vertex x="-1.679" y="-0.555"/>
+<vertex x="-1.709" y="-0.565"/>
+<vertex x="-1.749" y="-0.575"/>
+<vertex x="-1.779" y="-0.585"/>
+<vertex x="-1.809" y="-0.585"/>
+<vertex x="-1.839" y="-0.595"/>
+<vertex x="-1.909" y="-0.595"/>
+<vertex x="-1.939" y="-0.605"/>
+<vertex x="-2.019" y="-0.605"/>
+<vertex x="-2.069" y="-0.595"/>
+<vertex x="-2.119" y="-0.595"/>
+<vertex x="-2.159" y="-0.575"/>
+<vertex x="-2.199" y="-0.565"/>
+<vertex x="-2.279" y="-0.525"/>
+<vertex x="-2.309" y="-0.505"/>
+<vertex x="-2.369" y="-0.445"/>
+<vertex x="-2.399" y="-0.405"/>
+<vertex x="-2.419" y="-0.365"/>
+<vertex x="-2.439" y="-0.285"/>
+<vertex x="-2.449" y="-0.235"/>
+<vertex x="-2.449" y="-0.185"/>
+<vertex x="-2.439" y="-0.075"/>
+<vertex x="-2.409" y="0.015"/>
+<vertex x="-2.359" y="0.085"/>
+<vertex x="-2.299" y="0.145"/>
+<vertex x="-2.229" y="0.185"/>
+<vertex x="-2.149" y="0.215"/>
+<vertex x="-2.059" y="0.235"/>
+<vertex x="-1.979" y="0.245"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-0.909" y="0.785"/>
+<vertex x="-0.809" y="0.805"/>
+<vertex x="-0.769" y="0.815"/>
+<vertex x="-0.719" y="0.815"/>
+<vertex x="-0.669" y="0.825"/>
+<vertex x="-0.629" y="0.835"/>
+<vertex x="-0.579" y="0.845"/>
+<vertex x="-0.539" y="0.855"/>
+<vertex x="-0.539" y="0.585"/>
+<vertex x="-0.529" y="0.585"/>
+<vertex x="-0.499" y="0.655"/>
+<vertex x="-0.459" y="0.715"/>
+<vertex x="-0.409" y="0.765"/>
+<vertex x="-0.289" y="0.845"/>
+<vertex x="-0.149" y="0.885"/>
+<vertex x="-0.009" y="0.885"/>
+<vertex x="0.001" y="0.875"/>
+<vertex x="0.001" y="0.515"/>
+<vertex x="-0.009" y="0.515"/>
+<vertex x="-0.029" y="0.525"/>
+<vertex x="-0.139" y="0.525"/>
+<vertex x="-0.239" y="0.515"/>
+<vertex x="-0.319" y="0.495"/>
+<vertex x="-0.379" y="0.455"/>
+<vertex x="-0.439" y="0.395"/>
+<vertex x="-0.499" y="0.255"/>
+<vertex x="-0.519" y="0.165"/>
+<vertex x="-0.519" y="-0.565"/>
+<vertex x="-0.909" y="-0.565"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="0.161" y="1.175"/>
+<vertex x="0.541" y="1.395"/>
+<vertex x="0.541" y="0.345"/>
+<vertex x="1.031" y="0.855"/>
+<vertex x="1.491" y="0.855"/>
+<vertex x="0.961" y="0.335"/>
+<vertex x="1.551" y="-0.565"/>
+<vertex x="1.081" y="-0.565"/>
+<vertex x="0.691" y="0.075"/>
+<vertex x="0.541" y="-0.075"/>
+<vertex x="0.541" y="-0.565"/>
+<vertex x="0.161" y="-0.565"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="1.791" y="0.595"/>
+<vertex x="1.411" y="0.595"/>
+<vertex x="1.471" y="0.655"/>
+<vertex x="1.511" y="0.685"/>
+<vertex x="1.541" y="0.725"/>
+<vertex x="1.601" y="0.785"/>
+<vertex x="1.641" y="0.815"/>
+<vertex x="1.671" y="0.855"/>
+<vertex x="1.791" y="0.855"/>
+<vertex x="1.791" y="0.965"/>
+<vertex x="1.801" y="1.055"/>
+<vertex x="1.821" y="1.135"/>
+<vertex x="1.861" y="1.205"/>
+<vertex x="1.911" y="1.265"/>
+<vertex x="1.971" y="1.325"/>
+<vertex x="2.051" y="1.355"/>
+<vertex x="2.151" y="1.385"/>
+<vertex x="2.261" y="1.395"/>
+<vertex x="2.341" y="1.395"/>
+<vertex x="2.371" y="1.385"/>
+<vertex x="2.471" y="1.385"/>
+<vertex x="2.471" y="1.095"/>
+<vertex x="2.291" y="1.095"/>
+<vertex x="2.231" y="1.075"/>
+<vertex x="2.211" y="1.065"/>
+<vertex x="2.201" y="1.035"/>
+<vertex x="2.191" y="1.015"/>
+<vertex x="2.181" y="0.975"/>
+<vertex x="2.181" y="0.855"/>
+<vertex x="2.451" y="0.855"/>
+<vertex x="2.451" y="0.595"/>
+<vertex x="2.181" y="0.595"/>
+<vertex x="2.181" y="-0.565"/>
+<vertex x="1.791" y="-0.565"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="3.881" y="-0.565"/>
+<vertex x="3.511" y="-0.565"/>
+<vertex x="3.511" y="-0.365"/>
+<vertex x="3.471" y="-0.425"/>
+<vertex x="3.421" y="-0.465"/>
+<vertex x="3.371" y="-0.515"/>
+<vertex x="3.321" y="-0.545"/>
+<vertex x="3.201" y="-0.585"/>
+<vertex x="3.141" y="-0.595"/>
+<vertex x="3.071" y="-0.605"/>
+<vertex x="2.931" y="-0.585"/>
+<vertex x="2.821" y="-0.555"/>
+<vertex x="2.731" y="-0.505"/>
+<vertex x="2.661" y="-0.445"/>
+<vertex x="2.611" y="-0.355"/>
+<vertex x="2.581" y="-0.255"/>
+<vertex x="2.561" y="-0.145"/>
+<vertex x="2.561" y="0.855"/>
+<vertex x="2.951" y="0.855"/>
+<vertex x="2.951" y="-0.025"/>
+<vertex x="2.961" y="-0.095"/>
+<vertex x="2.981" y="-0.155"/>
+<vertex x="3.001" y="-0.205"/>
+<vertex x="3.041" y="-0.245"/>
+<vertex x="3.081" y="-0.275"/>
+<vertex x="3.131" y="-0.285"/>
+<vertex x="3.201" y="-0.295"/>
+<vertex x="3.271" y="-0.285"/>
+<vertex x="3.331" y="-0.275"/>
+<vertex x="3.381" y="-0.245"/>
+<vertex x="3.431" y="-0.195"/>
+<vertex x="3.461" y="-0.145"/>
+<vertex x="3.481" y="-0.075"/>
+<vertex x="3.491" y="0.015"/>
+<vertex x="3.501" y="0.115"/>
+<vertex x="3.501" y="0.855"/>
+<vertex x="3.881" y="0.855"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="4.101" y="0.855"/>
+<vertex x="4.461" y="0.855"/>
+<vertex x="4.461" y="0.655"/>
+<vertex x="4.471" y="0.655"/>
+<vertex x="4.511" y="0.715"/>
+<vertex x="4.551" y="0.765"/>
+<vertex x="4.611" y="0.805"/>
+<vertex x="4.661" y="0.835"/>
+<vertex x="4.781" y="0.875"/>
+<vertex x="4.901" y="0.895"/>
+<vertex x="5.041" y="0.875"/>
+<vertex x="5.161" y="0.845"/>
+<vertex x="5.251" y="0.795"/>
+<vertex x="5.311" y="0.735"/>
+<vertex x="5.361" y="0.645"/>
+<vertex x="5.401" y="0.545"/>
+<vertex x="5.411" y="0.435"/>
+<vertex x="5.421" y="0.305"/>
+<vertex x="5.421" y="-0.565"/>
+<vertex x="5.031" y="-0.565"/>
+<vertex x="5.031" y="0.315"/>
+<vertex x="5.021" y="0.385"/>
+<vertex x="5.001" y="0.445"/>
+<vertex x="4.971" y="0.495"/>
+<vertex x="4.941" y="0.535"/>
+<vertex x="4.901" y="0.565"/>
+<vertex x="4.781" y="0.585"/>
+<vertex x="4.641" y="0.565"/>
+<vertex x="4.591" y="0.535"/>
+<vertex x="4.551" y="0.485"/>
+<vertex x="4.521" y="0.435"/>
+<vertex x="4.501" y="0.365"/>
+<vertex x="4.481" y="0.275"/>
+<vertex x="4.481" y="-0.565"/>
+<vertex x="4.091" y="-0.565"/>
+<vertex x="4.091" y="0.675"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -4199,6 +4539,161 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="GNSS_Chip_Antenna_Evaluation_Board">
+<packages>
+<package name="TE_PUCK">
+<circle x="0" y="0" radius="8" width="0.05" layer="51"/>
+<smd name="1" x="-1.2" y="-7.03" dx="2.4" dy="2.4" layer="1"/>
+<smd name="3" x="6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R300"/>
+<smd name="2" x="-6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R60"/>
+<smd name="S" x="1.75" y="-7.28" dx="1.4" dy="1.74" layer="1"/>
+<circle x="0" y="0" radius="14" width="0.05" layer="39"/>
+<text x="0" y="0.635" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<wire x1="-5.8" y1="5.5" x2="5.8" y2="5.5" width="0.2032" layer="21" curve="-93.807969"/>
+<wire x1="7.7" y1="2.3" x2="3" y2="-7.4" width="0.2032" layer="21" curve="-86.010171"/>
+<wire x1="-2.9" y1="-7.4" x2="-7.7" y2="2.3" width="0.2032" layer="21" curve="-86.13748"/>
+</package>
+<package name="MOLEX_GNSS_CUBE">
+<smd name="NC2" x="-3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC3" x="3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC1" x="-3.905" y="-5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-5.86" y1="5.86" x2="5.86" y2="5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="5.86" x2="5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="-5.86" x2="-5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="-5.86" y1="-5.86" x2="-5.86" y2="5.86" width="0.05" layer="51"/>
+<smd name="GND" x="3.545" y="-5.2" dx="1.3" dy="1.32" layer="1" rot="R180"/>
+<smd name="FEED" x="5.33" y="-3.4" dx="1.3" dy="1.61" layer="1" rot="R270"/>
+<rectangle x1="3.295" y1="-7.5" x2="3.795" y2="-5" layer="51"/>
+<rectangle x1="4.125" y1="-4.45" x2="4.5" y2="-2.35" layer="41"/>
+<wire x1="-5.842" y1="-5.842" x2="-5.842" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="5.842" x2="1.905" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="5.842" x2="5.842" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-4.445" x2="5.842" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-5.842" x2="4.572" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-5.842" x2="-1.905" y2="-5.842" width="0.1524" layer="21"/>
+<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0.889" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="5.0125" y1="-3.5875" x2="5.3875" y2="-1.4875" layer="41" rot="R90"/>
+<rectangle x1="5.0125" y1="-5.2875" x2="5.3875" y2="-3.1875" layer="41" rot="R90"/>
+<rectangle x1="3.3625" y1="-5.3875" x2="3.7375" y2="-3.2875" layer="41" rot="R90"/>
+<rectangle x1="4.225" y1="-6.95" x2="4.6" y2="-4.5" layer="41"/>
+<rectangle x1="3.795" y1="-6.95" x2="4.2375" y2="-5.975" layer="41"/>
+<rectangle x1="2.845" y1="-6.95" x2="3.2875" y2="-5.625" layer="41"/>
+<wire x1="3.1" y1="-5.9" x2="3.1" y2="-6.94" width="0.05" layer="41"/>
+<rectangle x1="2.5" y1="-6.95" x2="2.875" y2="-4.5" layer="41" rot="R180"/>
+</package>
+<package name="MOLEX_GNSS_CHIP">
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<smd name="2" x="-1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="3" x="-1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="FEED" x="1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="1" x="1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<wire x1="-2" y1="6" x2="2" y2="6" width="0.05" layer="51"/>
+<wire x1="2" y1="6" x2="2" y2="-1" width="0.05" layer="51"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.05" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="6" width="0.05" layer="51"/>
+<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="0.1" x2="-1.6" y2="-0.1" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.1" x2="1.6" y2="-0.1" width="0.1524" layer="21"/>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<text x="0" y="1.651" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.27" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="-2" y1="-1" x2="2" y2="6" layer="42"/>
+<rectangle x1="-2" y1="1" x2="2" y2="6" layer="41"/>
+<rectangle x1="-0.8" y1="-1" x2="0.8" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-0.2" x2="2" y2="0.2" layer="41"/>
+</package>
+<package name="W3062A">
+<wire x1="-3.5" y1="0.78" x2="3.5" y2="0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="0.78" x2="3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="-0.78" x2="-3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="-3.5" y1="-0.78" x2="-3.5" y2="0.78" width="0.05" layer="51"/>
+<smd name="GND" x="-3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<smd name="FEED" x="3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<rectangle x1="-3.5" y1="-0.68" x2="-2.5" y2="0.68" layer="51"/>
+<rectangle x1="2.49" y1="-0.68" x2="3.49" y2="0.68" layer="51"/>
+<rectangle x1="-3.9" y1="-2.625" x2="3.9" y2="2.625" layer="42"/>
+<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="2" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.4" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<wire x1="-3.9" y1="2.6" x2="3.9" y2="2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="2.6" x2="3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-2.6" x2="-3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-2.6" x2="-3.9" y2="2.6" width="0.05" layer="51"/>
+<rectangle x1="3.5" y1="-0.8" x2="3.9" y2="-0.6" layer="41"/>
+<rectangle x1="3.5" y1="0.6" x2="3.9" y2="0.8" layer="41"/>
+<rectangle x1="-3.9" y1="0.8" x2="3.9" y2="2.6" layer="41"/>
+<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="-0.8" layer="41"/>
+<rectangle x1="-3.9" y1="-0.8" x2="-3.5" y2="-0.6" layer="41"/>
+<rectangle x1="-3.9" y1="0.6" x2="-3.5" y2="0.8" layer="41"/>
+<rectangle x1="-2.3" y1="-0.8" x2="2.3" y2="0.8" layer="41"/>
+</package>
+<package name="W3011">
+<smd name="3" x="-1.6" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.6" y="-0.475" dx="0.8" dy="0.65" layer="1"/>
+<smd name="1" x="1.6" y="0.475" dx="0.8" dy="0.65" layer="1"/>
+<wire x1="-2" y1="-1.2" x2="-2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="-2" y1="3.05" x2="2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="2" y1="3.05" x2="2" y2="-1.2" width="0.05" layer="51"/>
+<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="-1.25" x2="2" y2="3.05" layer="42"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-0.9" y1="0.8" x2="0.9" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="1.4" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<rectangle x1="-2" y1="1" x2="2" y2="3" layer="41"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-1.2" x2="2" y2="-1" layer="41"/>
+</package>
+<package name="MLOEX_GNSS_MOLDED">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.05" layer="51"/>
+<smd name="1" x="-0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FEED" x="0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="3" x="0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="2" x="-0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
+<rectangle x1="-2.64" y1="-3.735" x2="2.64" y2="3.735" layer="42"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.9" x2="1.5" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-0.4" x2="1.5" y2="-0.9" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.5" x2="1.9" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.1" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.1" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<text x="-1.27" y="-1.27" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
+<text x="-1.27" y="-1.651" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
+<text x="0" y="0.381" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<wire x1="-2.6" y1="3.7" x2="2.6" y2="3.7" width="0.05" layer="51"/>
+<wire x1="2.6" y1="3.7" x2="2.6" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="2.6" y1="-3.7" x2="-2.6" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="-2.6" y1="-3.7" x2="-2.6" y2="3.7" width="0.05" layer="51"/>
+<rectangle x1="-2.64" y1="-1.2" x2="2.64" y2="3.735" layer="41"/>
+<rectangle x1="-2.64" y1="-3.735" x2="0.2" y2="-1.2" layer="41"/>
+<rectangle x1="0.2" y1="-3.735" x2="2.64" y2="-2.7" layer="41"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4373,21 +4868,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SF_ID" value="WRL-09144" x="34.29" y="32.004" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.83" y="30.734" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
-<element name="Y2" library="GPS Chip Antennas" package="TE_PUCK" value="PUCK" x="12.7" y="13.97" smashed="yes"/>
+<element name="Y2" library="GNSS_Chip_Antenna_Evaluation_Board" package="TE_PUCK" value="PUCK" x="12.7" y="13.97" smashed="yes"/>
 <element name="J2" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="14.478" y="2.667" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.938" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09193" x="14.478" y="2.667" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="14.478" y="2.667" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.018" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
-<element name="Y3" library="GPS Chip Antennas" package="MOLEX_GNSS_CUBE" value="CUBE" x="36.83" y="6.35" smashed="yes" rot="R180"/>
+<element name="Y3" library="GNSS_Chip_Antenna_Evaluation_Board" package="MOLEX_GNSS_CUBE" value="CUBE" x="36.83" y="6.35" smashed="yes" rot="R180"/>
 <element name="J3" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="27.94" y="9.779" smashed="yes">
 <attribute name="NAME" x="26.67" y="12.319" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="27.94" y="9.779" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="27.94" y="9.779" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="26.67" y="7.239" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="Y4" library="GPS Chip Antennas" package="MOLEX_GNSS_CHIP" value="CHIP" x="52.07" y="1.143" smashed="yes"/>
+<element name="Y4" library="GNSS_Chip_Antenna_Evaluation_Board" package="MOLEX_GNSS_CHIP" value="CHIP" x="52.07" y="1.143" smashed="yes"/>
 <element name="R1" library="Testing" package="0402-RES" value="0" x="56.007" y="1.651" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.896" y="0.9525" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.0865" y="2.794" size="0.4064" layer="27" rot="R180"/>
@@ -4398,21 +4893,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SF_ID" value="WRL-09144" x="57.716" y="3.81" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="55.176" y="5.08" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
 </element>
-<element name="Y5" library="GPS Chip Antennas" package="MLOEX_GNSS_MOLDED" value="MOLDED" x="4.064" y="33.02" smashed="yes" rot="R270"/>
+<element name="Y5" library="GNSS_Chip_Antenna_Evaluation_Board" package="MLOEX_GNSS_MOLDED" value="MOLDED" x="4.064" y="33.02" smashed="yes" rot="R270"/>
 <element name="J5" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="2.159" y="27.686" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.381" y="26.416" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09193" x="2.159" y="27.686" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="2.159" y="27.686" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.699" y="26.416" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
-<element name="Y6" library="GPS Chip Antennas" package="W3062A" value="W3062A" x="58.42" y="30.353" smashed="yes" rot="R270"/>
+<element name="Y6" library="GNSS_Chip_Antenna_Evaluation_Board" package="W3062A" value="W3062A" x="58.42" y="30.353" smashed="yes" rot="R270"/>
 <element name="J6" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="53.34" y="25.4" smashed="yes">
 <attribute name="NAME" x="52.07" y="27.94" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="53.34" y="25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="53.34" y="25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="52.07" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="Y7" library="GPS Chip Antennas" package="W3011" value="W3011" x="40.64" y="34.29" smashed="yes" rot="R180"/>
+<element name="Y7" library="GNSS_Chip_Antenna_Evaluation_Board" package="W3011" value="W3011" x="40.64" y="34.29" smashed="yes" rot="R180"/>
 <element name="U$1" library="SparkFun-Hardware" package="STAND-OFF" value="" x="2.54" y="20.32" smashed="yes">
 <attribute name="NAME" x="2.54" y="22.352" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="2.54" y="18.288" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -4489,6 +4984,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_COPPER_EXPOSED_.1" value="SFE_LOGO_FLAME.1EXP" x="22.86" y="29.21" smashed="yes"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_COPPER_EXPOSED_.1" value="SFE_LOGO_FLAME.1EXP" x="46.228" y="16.51" smashed="yes"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_COPPER_EXPOSED_.1" value="SFE_LOGO_FLAME.1EXP" x="19.05" y="3.81" smashed="yes"/>
+<element name="U$17" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="64.77" y="50.8" smashed="yes"/>
+<element name="U$23" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="36.83" y="20.32" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">

@@ -7371,256 +7371,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="GPS Chip Antennas">
-<packages>
-<package name="W3011">
-<smd name="3" x="-1.6" y="0" dx="0.8" dy="1.6" layer="1"/>
-<smd name="2" x="1.6" y="-0.475" dx="0.8" dy="0.65" layer="1"/>
-<smd name="1" x="1.6" y="0.475" dx="0.8" dy="0.65" layer="1"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="-2" y1="3.05" x2="2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="2" y1="3.05" x2="2" y2="-1.2" width="0.05" layer="51"/>
-<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.05" layer="51"/>
-<rectangle x1="-2" y1="-1.25" x2="2" y2="3.05" layer="42"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="-0.9" y1="0.8" x2="0.9" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8" width="0.1524" layer="21"/>
-<text x="0" y="1.4" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<rectangle x1="-2" y1="1" x2="2" y2="3" layer="41"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
-<rectangle x1="-2" y1="-1.2" x2="2" y2="-1" layer="41"/>
-</package>
-<package name="TE_PUCK">
-<circle x="0" y="0" radius="8" width="0.05" layer="51"/>
-<smd name="1" x="-1.2" y="-7.03" dx="2.4" dy="2.4" layer="1"/>
-<smd name="3" x="6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R300"/>
-<smd name="2" x="-6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R60"/>
-<smd name="S" x="1.75" y="-7.28" dx="1.4" dy="1.74" layer="1"/>
-<circle x="0" y="0" radius="14" width="0.05" layer="39"/>
-<text x="0" y="0.635" size="0.508" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="-1.27" size="0.508" layer="27" font="vector" align="center">&gt;tValue</text>
-<wire x1="-5.8" y1="5.5" x2="5.8" y2="5.5" width="0.2032" layer="21" curve="-93.807969"/>
-<wire x1="7.7" y1="2.3" x2="3" y2="-7.4" width="0.2032" layer="21" curve="-86.010171"/>
-<wire x1="-2.9" y1="-7.4" x2="-7.7" y2="2.3" width="0.2032" layer="21" curve="-86.13748"/>
-</package>
-<package name="MOLEX_GNSS_CUBE">
-<smd name="NC2" x="-3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<smd name="NC3" x="3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<smd name="NC1" x="-3.905" y="-5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
-<wire x1="-5.86" y1="5.86" x2="5.86" y2="5.86" width="0.05" layer="51"/>
-<wire x1="5.86" y1="5.86" x2="5.86" y2="-5.86" width="0.05" layer="51"/>
-<wire x1="5.86" y1="-5.86" x2="-5.86" y2="-5.86" width="0.05" layer="51"/>
-<wire x1="-5.86" y1="-5.86" x2="-5.86" y2="5.86" width="0.05" layer="51"/>
-<smd name="GND" x="3.545" y="-5.2" dx="1.3" dy="1.32" layer="1" rot="R180"/>
-<smd name="FEED" x="5.33" y="-3.4" dx="1.3" dy="1.61" layer="1" rot="R270"/>
-<rectangle x1="3.295" y1="-7.5" x2="3.795" y2="-5" layer="51"/>
-<rectangle x1="4.125" y1="-4.45" x2="4.5" y2="-2.35" layer="41"/>
-<wire x1="-5.842" y1="-5.842" x2="-5.842" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="5.842" x2="1.905" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="5.842" x2="5.842" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="-4.445" x2="5.842" y2="-5.842" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="-5.842" x2="4.572" y2="-5.842" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-5.842" x2="-1.905" y2="-5.842" width="0.1524" layer="21"/>
-<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="0.889" size="0.508" layer="27" font="vector" align="center">&gt;tValue</text>
-<rectangle x1="5.0125" y1="-3.5875" x2="5.3875" y2="-1.4875" layer="41" rot="R90"/>
-<rectangle x1="5.0125" y1="-5.2875" x2="5.3875" y2="-3.1875" layer="41" rot="R90"/>
-<rectangle x1="3.3625" y1="-5.3875" x2="3.7375" y2="-3.2875" layer="41" rot="R90"/>
-<rectangle x1="4.225" y1="-6.95" x2="4.6" y2="-4.5" layer="41"/>
-<rectangle x1="3.795" y1="-6.95" x2="4.2375" y2="-5.975" layer="41"/>
-<rectangle x1="2.845" y1="-6.95" x2="3.2875" y2="-5.625" layer="41"/>
-<wire x1="3.1" y1="-5.9" x2="3.1" y2="-6.94" width="0.05" layer="41"/>
-<rectangle x1="2.5" y1="-6.95" x2="2.875" y2="-4.5" layer="41" rot="R180"/>
-</package>
-<package name="MOLEX_GNSS_CHIP">
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
-<smd name="2" x="-1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="3" x="-1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="FEED" x="1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
-<smd name="1" x="1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
-<wire x1="-2" y1="6" x2="2" y2="6" width="0.05" layer="51"/>
-<wire x1="2" y1="6" x2="2" y2="-1" width="0.05" layer="51"/>
-<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.05" layer="51"/>
-<wire x1="-2" y1="-1" x2="-2" y2="6" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
-<wire x1="-1.6" y1="0.1" x2="-1.6" y2="-0.1" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="0.1" x2="1.6" y2="-0.1" width="0.1524" layer="21"/>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<text x="0" y="1.651" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1.27" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<rectangle x1="-2" y1="-1" x2="2" y2="6" layer="42"/>
-<rectangle x1="-2" y1="1" x2="2" y2="6" layer="41"/>
-<rectangle x1="-0.8" y1="-1" x2="0.8" y2="1" layer="41"/>
-<rectangle x1="-2" y1="-0.2" x2="2" y2="0.2" layer="41"/>
-</package>
-<package name="MLOEX_GNSS_MOLDED">
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.05" layer="51"/>
-<smd name="1" x="-0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="FEED" x="0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="3" x="0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
-<smd name="2" x="-0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
-<rectangle x1="-2.64" y1="-3.735" x2="2.64" y2="3.735" layer="42"/>
-<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.9" x2="1.5" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.5" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="-0.4" x2="1.5" y2="-0.9" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="0.5" x2="1.9" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.9" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.5" x2="1.1" y2="0.5" width="0.1524" layer="21"/>
-<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.4" width="0.1524" layer="21"/>
-<wire x1="1.1" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
-<text x="-1.27" y="-1.27" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="-1.27" y="-1.651" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0.381" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="0" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<wire x1="-2.6" y1="3.7" x2="2.6" y2="3.7" width="0.05" layer="51"/>
-<wire x1="2.6" y1="3.7" x2="2.6" y2="-3.7" width="0.05" layer="51"/>
-<wire x1="2.6" y1="-3.7" x2="-2.6" y2="-3.7" width="0.05" layer="51"/>
-<wire x1="-2.6" y1="-3.7" x2="-2.6" y2="3.7" width="0.05" layer="51"/>
-<rectangle x1="-2.64" y1="-1.2" x2="2.64" y2="3.735" layer="41"/>
-<rectangle x1="-2.64" y1="-3.735" x2="0.2" y2="-1.2" layer="41"/>
-<rectangle x1="0.2" y1="-3.735" x2="2.64" y2="-2.7" layer="41"/>
-</package>
-<package name="W3062A">
-<wire x1="-3.5" y1="0.78" x2="3.5" y2="0.78" width="0.05" layer="51"/>
-<wire x1="3.5" y1="0.78" x2="3.5" y2="-0.78" width="0.05" layer="51"/>
-<wire x1="3.5" y1="-0.78" x2="-3.5" y2="-0.78" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="-0.78" x2="-3.5" y2="0.78" width="0.05" layer="51"/>
-<smd name="GND" x="-3" y="0" dx="1.25" dy="1.61" layer="1"/>
-<smd name="FEED" x="3" y="0" dx="1.25" dy="1.61" layer="1"/>
-<rectangle x1="-3.5" y1="-0.68" x2="-2.5" y2="0.68" layer="51"/>
-<rectangle x1="2.49" y1="-0.68" x2="3.49" y2="0.68" layer="51"/>
-<rectangle x1="-3.9" y1="-2.625" x2="3.9" y2="2.625" layer="42"/>
-<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.1524" layer="21"/>
-<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.1524" layer="21"/>
-<text x="0" y="2" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
-<text x="0" y="1.4" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
-<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
-Antenna</text>
-<wire x1="-3.9" y1="2.6" x2="3.9" y2="2.6" width="0.05" layer="51"/>
-<wire x1="3.9" y1="2.6" x2="3.9" y2="-2.6" width="0.05" layer="51"/>
-<wire x1="3.9" y1="-2.6" x2="-3.9" y2="-2.6" width="0.05" layer="51"/>
-<wire x1="-3.9" y1="-2.6" x2="-3.9" y2="2.6" width="0.05" layer="51"/>
-<rectangle x1="3.5" y1="-0.8" x2="3.9" y2="-0.6" layer="41"/>
-<rectangle x1="3.5" y1="0.6" x2="3.9" y2="0.8" layer="41"/>
-<rectangle x1="-3.9" y1="0.8" x2="3.9" y2="2.6" layer="41"/>
-<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="-0.8" layer="41"/>
-<rectangle x1="-3.9" y1="-0.8" x2="-3.5" y2="-0.6" layer="41"/>
-<rectangle x1="-3.9" y1="0.6" x2="-3.5" y2="0.8" layer="41"/>
-<rectangle x1="-2.3" y1="-0.8" x2="2.3" y2="0.8" layer="41"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ANTENNA-GROUNDED">
-<description>&lt;h3&gt;Antenna (with ground termination)&lt;/h3&gt;</description>
-<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.1359" width="0.254" layer="94"/>
-<text x="3.048" y="-5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="3.048" y="-7.366" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="GND" x="2.54" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="SIGNAL" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
-</symbol>
-<symbol name="ANTENNA">
-<description>&lt;h3&gt;Antenna&lt;/h3&gt;</description>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="0.508" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="0.508" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GPS_CHIP_ANTENNA" prefix="Y">
-<gates>
-<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="W3011" package="W3011">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 3"/>
-<connect gate="G$1" pin="SIGNAL" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PUCK" package="TE_PUCK">
-<connects>
-<connect gate="G$1" pin="GND" pad="1 2 3"/>
-<connect gate="G$1" pin="SIGNAL" pad="S"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CUBE" package="MOLEX_GNSS_CUBE">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2042830001" package="MOLEX_GNSS_CHIP">
-<connects>
-<connect gate="G$1" pin="GND" pad="1 2 3"/>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W3062A" package="W3062A">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GPS_CHIP_ANTENNA_NOGND" prefix="Y">
-<gates>
-<gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MOLDED" package="MLOEX_GNSS_MOLDED">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -8166,6 +7916,256 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
+<library name="GNSS_Chip_Antenna_Evaluation_Board">
+<packages>
+<package name="TE_PUCK">
+<circle x="0" y="0" radius="8" width="0.05" layer="51"/>
+<smd name="1" x="-1.2" y="-7.03" dx="2.4" dy="2.4" layer="1"/>
+<smd name="3" x="6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R300"/>
+<smd name="2" x="-6.4432" y="3.72" dx="2.5" dy="2.5" layer="1" rot="R60"/>
+<smd name="S" x="1.75" y="-7.28" dx="1.4" dy="1.74" layer="1"/>
+<circle x="0" y="0" radius="14" width="0.05" layer="39"/>
+<text x="0" y="0.635" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<wire x1="-5.8" y1="5.5" x2="5.8" y2="5.5" width="0.2032" layer="21" curve="-93.807969"/>
+<wire x1="7.7" y1="2.3" x2="3" y2="-7.4" width="0.2032" layer="21" curve="-86.010171"/>
+<wire x1="-2.9" y1="-7.4" x2="-7.7" y2="2.3" width="0.2032" layer="21" curve="-86.13748"/>
+</package>
+<package name="W3011">
+<smd name="3" x="-1.6" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.6" y="-0.475" dx="0.8" dy="0.65" layer="1"/>
+<smd name="1" x="1.6" y="0.475" dx="0.8" dy="0.65" layer="1"/>
+<wire x1="-2" y1="-1.2" x2="-2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="-2" y1="3.05" x2="2" y2="3.05" width="0.05" layer="51"/>
+<wire x1="2" y1="3.05" x2="2" y2="-1.2" width="0.05" layer="51"/>
+<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="-1.25" x2="2" y2="3.05" layer="42"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-0.9" y1="0.8" x2="0.9" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="1.4" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<rectangle x1="-2" y1="1" x2="2" y2="3" layer="41"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-1.2" x2="2" y2="-1" layer="41"/>
+</package>
+<package name="MOLEX_GNSS_CUBE">
+<smd name="NC2" x="-3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC3" x="3.905" y="5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<smd name="NC1" x="-3.905" y="-5.06" dx="1.6" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-5.86" y1="5.86" x2="5.86" y2="5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="5.86" x2="5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="5.86" y1="-5.86" x2="-5.86" y2="-5.86" width="0.05" layer="51"/>
+<wire x1="-5.86" y1="-5.86" x2="-5.86" y2="5.86" width="0.05" layer="51"/>
+<smd name="GND" x="3.545" y="-5.2" dx="1.3" dy="1.32" layer="1" rot="R180"/>
+<smd name="FEED" x="5.33" y="-3.4" dx="1.3" dy="1.61" layer="1" rot="R270"/>
+<rectangle x1="3.295" y1="-7.5" x2="3.795" y2="-5" layer="51"/>
+<rectangle x1="4.125" y1="-4.45" x2="4.5" y2="-2.35" layer="41"/>
+<wire x1="-5.842" y1="-5.842" x2="-5.842" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="5.842" x2="1.905" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="5.842" x2="5.842" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-4.445" x2="5.842" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="5.842" y1="-5.842" x2="4.572" y2="-5.842" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-5.842" x2="-1.905" y2="-5.842" width="0.1524" layer="21"/>
+<text x="0" y="2.54" size="0.508" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0.889" size="0.508" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="5.0125" y1="-3.5875" x2="5.3875" y2="-1.4875" layer="41" rot="R90"/>
+<rectangle x1="5.0125" y1="-5.2875" x2="5.3875" y2="-3.1875" layer="41" rot="R90"/>
+<rectangle x1="3.3625" y1="-5.3875" x2="3.7375" y2="-3.2875" layer="41" rot="R90"/>
+<rectangle x1="4.225" y1="-6.95" x2="4.6" y2="-4.5" layer="41"/>
+<rectangle x1="3.795" y1="-6.95" x2="4.2375" y2="-5.975" layer="41"/>
+<rectangle x1="2.845" y1="-6.95" x2="3.2875" y2="-5.625" layer="41"/>
+<wire x1="3.1" y1="-5.9" x2="3.1" y2="-6.94" width="0.05" layer="41"/>
+<rectangle x1="2.5" y1="-6.95" x2="2.875" y2="-4.5" layer="41" rot="R180"/>
+</package>
+<package name="MOLEX_GNSS_CHIP">
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<smd name="2" x="-1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="3" x="-1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="FEED" x="1.45" y="0.55" dx="1.1" dy="0.5" layer="1"/>
+<smd name="1" x="1.45" y="-0.55" dx="1.1" dy="0.5" layer="1"/>
+<wire x1="-2" y1="6" x2="2" y2="6" width="0.05" layer="51"/>
+<wire x1="2" y1="6" x2="2" y2="-1" width="0.05" layer="51"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.05" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="6" width="0.05" layer="51"/>
+<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="0.1" x2="-1.6" y2="-0.1" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.1" x2="1.6" y2="-0.1" width="0.1524" layer="21"/>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<text x="0" y="1.651" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.27" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<rectangle x1="-2" y1="-1" x2="2" y2="6" layer="42"/>
+<rectangle x1="-2" y1="1" x2="2" y2="6" layer="41"/>
+<rectangle x1="-0.8" y1="-1" x2="0.8" y2="1" layer="41"/>
+<rectangle x1="-2" y1="-0.2" x2="2" y2="0.2" layer="41"/>
+</package>
+<package name="W3062A">
+<wire x1="-3.5" y1="0.78" x2="3.5" y2="0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="0.78" x2="3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="3.5" y1="-0.78" x2="-3.5" y2="-0.78" width="0.05" layer="51"/>
+<wire x1="-3.5" y1="-0.78" x2="-3.5" y2="0.78" width="0.05" layer="51"/>
+<smd name="GND" x="-3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<smd name="FEED" x="3" y="0" dx="1.25" dy="1.61" layer="1"/>
+<rectangle x1="-3.5" y1="-0.68" x2="-2.5" y2="0.68" layer="51"/>
+<rectangle x1="2.49" y1="-0.68" x2="3.49" y2="0.68" layer="51"/>
+<rectangle x1="-3.9" y1="-2.625" x2="3.9" y2="2.625" layer="42"/>
+<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.1524" layer="21"/>
+<text x="0" y="2" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.4" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<text x="0" y="0" size="0.2" layer="51" font="vector" align="center">Reversible
+Antenna</text>
+<wire x1="-3.9" y1="2.6" x2="3.9" y2="2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="2.6" x2="3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-2.6" x2="-3.9" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-2.6" x2="-3.9" y2="2.6" width="0.05" layer="51"/>
+<rectangle x1="3.5" y1="-0.8" x2="3.9" y2="-0.6" layer="41"/>
+<rectangle x1="3.5" y1="0.6" x2="3.9" y2="0.8" layer="41"/>
+<rectangle x1="-3.9" y1="0.8" x2="3.9" y2="2.6" layer="41"/>
+<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="-0.8" layer="41"/>
+<rectangle x1="-3.9" y1="-0.8" x2="-3.5" y2="-0.6" layer="41"/>
+<rectangle x1="-3.9" y1="0.6" x2="-3.5" y2="0.8" layer="41"/>
+<rectangle x1="-2.3" y1="-0.8" x2="2.3" y2="0.8" layer="41"/>
+</package>
+<package name="MLOEX_GNSS_MOLDED">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.05" layer="51"/>
+<smd name="1" x="-0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="FEED" x="0.97" y="-1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="3" x="0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
+<smd name="2" x="-0.97" y="1.95" dx="1.54" dy="1.54" layer="1"/>
+<rectangle x1="-2.64" y1="-3.735" x2="2.64" y2="3.735" layer="42"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.9" x2="1.5" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-0.4" x2="1.5" y2="-0.9" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.5" x2="1.9" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.1" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.1" y1="-0.4" x2="1.5" y2="-0.4" width="0.1524" layer="21"/>
+<text x="-1.27" y="-1.27" size="0.2" layer="25" font="vector" align="center">&gt;tName</text>
+<text x="-1.27" y="-1.651" size="0.2" layer="27" font="vector" align="center">&gt;tValue</text>
+<text x="0" y="0.381" size="0.2" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.2" layer="27" font="vector" align="center">&gt;Value</text>
+<wire x1="-2.6" y1="3.7" x2="2.6" y2="3.7" width="0.05" layer="51"/>
+<wire x1="2.6" y1="3.7" x2="2.6" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="2.6" y1="-3.7" x2="-2.6" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="-2.6" y1="-3.7" x2="-2.6" y2="3.7" width="0.05" layer="51"/>
+<rectangle x1="-2.64" y1="-1.2" x2="2.64" y2="3.735" layer="41"/>
+<rectangle x1="-2.64" y1="-3.735" x2="0.2" y2="-1.2" layer="41"/>
+<rectangle x1="0.2" y1="-3.735" x2="2.64" y2="-2.7" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ANTENNA-GROUNDED">
+<description>&lt;h3&gt;Antenna (with ground termination)&lt;/h3&gt;</description>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<circle x="0" y="-5.08" radius="1.1359" width="0.254" layer="94"/>
+<text x="3.048" y="-5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="3.048" y="-7.366" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="GND" x="2.54" y="-10.16" visible="off" length="short" rot="R90"/>
+<pin name="SIGNAL" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="ANTENNA">
+<description>&lt;h3&gt;Antenna&lt;/h3&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="0.508" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="0.508" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GPS_CHIP_ANTENNA" prefix="Y">
+<gates>
+<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="W3011" package="W3011">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PUCK" package="TE_PUCK">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CUBE" package="MOLEX_GNSS_CUBE">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2042830001" package="MOLEX_GNSS_CHIP">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2 3"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W3062A" package="W3062A">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPS_CHIP_ANTENNA_NOGND" prefix="Y">
+<gates>
+<gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MOLDED" package="MLOEX_GNSS_MOLDED">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8187,27 +8187,27 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="J1" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y2" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA" device="PUCK" value="PUCK"/>
+<part name="Y2" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA" device="PUCK" value="PUCK"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y3" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA" device="CUBE" value="CUBE"/>
+<part name="Y3" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA" device="CUBE" value="CUBE"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y4" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA" device="2042830001" value="CHIP"/>
+<part name="Y4" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA" device="2042830001" value="CHIP"/>
 <part name="R1" library="Testing" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y5" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA_NOGND" device="MOLDED" value="MOLDED"/>
+<part name="Y5" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA_NOGND" device="MOLDED" value="MOLDED"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y6" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA" device="W3062A" value="W3062A"/>
+<part name="Y6" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA" device="W3062A" value="W3062A"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y7" library="GPS Chip Antennas" deviceset="GPS_CHIP_ANTENNA" device="W3011" value="W3011"/>
+<part name="Y7" library="GNSS_Chip_Antenna_Evaluation_Board" deviceset="GPS_CHIP_ANTENNA" device="W3011" value="W3011"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1EXP"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1EXP"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1EXP"/>
@@ -8226,37 +8226,50 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="84.836" y="7.874" size="1.27" layer="97">Polygon Isolation: 8mil/0.2032mm</text>
 <text x="84.836" y="12.954" size="1.27" layer="97">Dielectric thickness: 0.73mm</text>
 <text x="84.836" y="2.794" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
-<text x="84.836" y="20.574" size="1.524" layer="97" ratio="15">Microstrip Calculation:</text>
-<wire x1="0" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="97" style="longdash"/>
+<text x="82.296" y="20.574" size="1.524" layer="97" ratio="15">Microstrip Calculation:</text>
+<wire x1="0" y1="114.3" x2="248.92" y2="114.3" width="0.1524" layer="97" style="longdash"/>
 <wire x1="68.58" y1="185.42" x2="68.58" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="185.42" x2="147.32" y2="35.56" width="0.1524" layer="97" style="longdash"/>
-<text x="30.48" y="121.92" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="30.48" y="124.46" size="1.778" layer="97" align="center">Gain: 1.4dBi</text>
-<text x="30.48" y="127" size="1.778" layer="97" align="center">Part: Molex 1462350001</text>
-<text x="195.58" y="121.92" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="195.58" y="119.38" size="1.778" layer="97" align="center">Range: 1.565 - 1.585GHz</text>
-<text x="195.58" y="124.46" size="1.778" layer="97" align="center">Gain: 2.5dBi</text>
-<text x="195.58" y="127" size="1.778" layer="97" align="center">Part: PulseLarsen W3062A</text>
-<text x="106.68" y="121.92" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="106.68" y="124.46" size="1.778" layer="97" align="center">Gain: 3.4dBi</text>
-<text x="106.68" y="127" size="1.778" layer="97" align="center">Part: PulseLarsen W3011</text>
-<text x="109.22" y="40.64" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="109.22" y="43.18" size="1.778" layer="97" align="center">Gain: 1dBi</text>
-<text x="109.22" y="45.72" size="1.778" layer="97" align="center">Part: Molex 1462160001</text>
-<text x="33.02" y="40.64" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="33.02" y="38.1" size="1.778" layer="97" align="center">Range: 1.565 - 1.585GHz</text>
-<text x="33.02" y="43.18" size="1.778" layer="97" align="center">Gain: 0dBi</text>
-<text x="33.02" y="45.72" size="1.778" layer="97" align="center">Part: TE 1513634-1</text>
-<text x="195.58" y="45.72" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
-<text x="195.58" y="43.18" size="1.778" layer="97" align="center">Range: 1.561 - 1.602GHz</text>
-<text x="195.58" y="48.26" size="1.778" layer="97" align="center">Gain: 2dBi</text>
-<text x="195.58" y="50.8" size="1.778" layer="97" align="center">Part: Molex 2042830001</text>
-<text x="106.68" y="119.38" size="1.778" layer="97" align="center">Antenna Type: Chip</text>
-<text x="195.58" y="116.84" size="1.778" layer="97" align="center">Antenna Type: Chip</text>
-<text x="195.58" y="40.64" size="1.778" layer="97" align="center">Antenna Type: Loop</text>
-<text x="109.22" y="38.1" size="1.778" layer="97" align="center">Antenna Type: PIFA</text>
-<text x="33.02" y="35.56" size="1.778" layer="97" align="center">Antenna Type: Raised Puck</text>
-<text x="30.48" y="119.38" size="1.778" layer="97" align="center">Antenna Type: LDS</text>
+<text x="30.48" y="127" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="30.48" y="129.54" size="1.778" layer="97" align="center">Gain: 1.4dBi</text>
+<text x="30.48" y="132.08" size="1.778" layer="97" align="center">Part: Molex 1462350001</text>
+<text x="195.58" y="127" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="195.58" y="124.46" size="1.778" layer="97" align="center">Range: 1.565 - 1.585GHz</text>
+<text x="195.58" y="129.54" size="1.778" layer="97" align="center">Gain: 2.5dBi</text>
+<text x="195.58" y="132.08" size="1.778" layer="97" align="center">Part: PulseLarsen W3062A</text>
+<text x="106.68" y="127" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="106.68" y="129.54" size="1.778" layer="97" align="center">Gain: 3.4dBi</text>
+<text x="106.68" y="132.08" size="1.778" layer="97" align="center">Part: PulseLarsen W3011</text>
+<text x="109.22" y="50.8" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="109.22" y="53.34" size="1.778" layer="97" align="center">Gain: 1dBi</text>
+<text x="109.22" y="55.88" size="1.778" layer="97" align="center">Part: Molex 1462160001</text>
+<text x="33.02" y="50.8" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="33.02" y="48.26" size="1.778" layer="97" align="center">Range: 1.565 - 1.585GHz</text>
+<text x="33.02" y="53.34" size="1.778" layer="97" align="center">Gain: 0dBi</text>
+<text x="33.02" y="55.88" size="1.778" layer="97" align="center">Part: TE 1513634-1</text>
+<text x="195.58" y="50.8" size="1.778" layer="97" align="center">Center: 1.575GHz</text>
+<text x="195.58" y="48.26" size="1.778" layer="97" align="center">Range: 1.561 - 1.602GHz</text>
+<text x="195.58" y="53.34" size="1.778" layer="97" align="center">Gain: 2dBi</text>
+<text x="195.58" y="55.88" size="1.778" layer="97" align="center">Part: Molex 2042830001</text>
+<text x="106.68" y="124.46" size="1.778" layer="97" align="center">Antenna Type: Chip</text>
+<text x="195.58" y="121.92" size="1.778" layer="97" align="center">Antenna Type: Chip</text>
+<text x="195.58" y="45.72" size="1.778" layer="97" align="center">Antenna Type: Loop</text>
+<text x="109.22" y="48.26" size="1.778" layer="97" align="center">Antenna Type: PIFA</text>
+<text x="33.02" y="45.72" size="1.778" layer="97" align="center">Antenna Type: Raised Puck</text>
+<text x="30.48" y="124.46" size="1.778" layer="97" align="center">Antenna Type: LDS</text>
+<text x="15.24" y="15.24" size="1.778" layer="97">GPS: 1.575GHz</text>
+<text x="15.24" y="12.7" size="1.778" layer="97">GLONASS: 1.598-1.609GHz</text>
+<text x="15.24" y="10.16" size="1.778" layer="97">Galileo: 1.575GHz</text>
+<text x="15.24" y="7.62" size="1.778" layer="97">BeiDou: 1.561 / 1.575GHz</text>
+<text x="33.02" y="175.26" size="3.048" layer="97" ratio="15" align="center">Molex Molded</text>
+<text x="198.12" y="104.14" size="3.048" layer="97" ratio="15" align="center">Molex Chip</text>
+<text x="109.22" y="104.14" size="3.048" layer="97" ratio="15" align="center">Molex Cube</text>
+<text x="198.12" y="175.26" size="3.048" layer="97" ratio="15" align="center">PulseLarsen W3062A</text>
+<text x="109.22" y="175.26" size="3.048" layer="97" ratio="15" align="center">PulseLarsen W3011</text>
+<text x="38.1" y="104.14" size="3.048" layer="97" ratio="15" align="center">TE Puck</text>
+<text x="180.34" y="12.7" size="2.54" layer="97" ratio="15" align="center">N. Seidle</text>
+<text x="12.7" y="17.78" size="1.778" layer="97" ratio="15">GNSS L1 Frequencies </text>
+<wire x1="147.32" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="JP5" gate="G$1" x="241.3" y="25.4" smashed="yes"/>
@@ -8271,43 +8284,43 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="101.6" y="149.86" smashed="yes">
-<attribute name="NAME" x="93.98" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="93.98" y="144.78" size="1.778" layer="96"/>
+<instance part="J1" gate="G$1" x="101.6" y="154.94" smashed="yes">
+<attribute name="NAME" x="93.98" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="93.98" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="101.6" y="139.7" smashed="yes">
-<attribute name="VALUE" x="101.6" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="101.6" y="144.78" smashed="yes">
+<attribute name="VALUE" x="101.6" y="144.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="111.76" y="144.78" smashed="yes">
-<attribute name="VALUE" x="111.76" y="144.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="111.76" y="149.86" smashed="yes">
+<attribute name="VALUE" x="111.76" y="149.606" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Y2" gate="G$1" x="38.1" y="86.36" smashed="yes">
-<attribute name="NAME" x="41.148" y="81.28" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="41.148" y="78.994" size="1.778" layer="96" font="vector"/>
+<instance part="Y2" gate="G$1" x="38.1" y="91.44" smashed="yes">
+<attribute name="NAME" x="41.148" y="86.36" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="41.148" y="84.074" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="30.48" y="73.66" smashed="yes">
-<attribute name="NAME" x="22.86" y="71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.86" y="68.58" size="1.778" layer="96"/>
+<instance part="J2" gate="G$1" x="30.48" y="78.74" smashed="yes">
+<attribute name="NAME" x="22.86" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="30.48" y="63.5" smashed="yes">
-<attribute name="VALUE" x="30.48" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="30.48" y="68.58" smashed="yes">
+<attribute name="VALUE" x="30.48" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND4" gate="1" x="40.64" y="71.12" smashed="yes">
-<attribute name="VALUE" x="40.64" y="70.866" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="40.64" y="76.2" smashed="yes">
+<attribute name="VALUE" x="40.64" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Y3" gate="G$1" x="111.76" y="86.36" smashed="yes">
-<attribute name="NAME" x="114.808" y="81.28" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="114.808" y="78.994" size="1.778" layer="96" font="vector"/>
+<instance part="Y3" gate="G$1" x="111.76" y="91.44" smashed="yes">
+<attribute name="NAME" x="114.808" y="86.36" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="114.808" y="84.074" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="104.14" y="73.66" smashed="yes">
-<attribute name="NAME" x="96.52" y="71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.52" y="68.58" size="1.778" layer="96"/>
+<instance part="J3" gate="G$1" x="104.14" y="78.74" smashed="yes">
+<attribute name="NAME" x="96.52" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="96.52" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="104.14" y="63.5" smashed="yes">
-<attribute name="VALUE" x="104.14" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="104.14" y="68.58" smashed="yes">
+<attribute name="VALUE" x="104.14" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="114.3" y="71.12" smashed="yes">
-<attribute name="VALUE" x="114.3" y="70.866" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="114.3" y="76.2" smashed="yes">
+<attribute name="VALUE" x="114.3" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="Y4" gate="G$1" x="198.12" y="99.06" smashed="yes">
 <attribute name="NAME" x="201.168" y="93.98" size="1.778" layer="95" font="vector"/>
@@ -8327,34 +8340,34 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND8" gate="1" x="187.96" y="60.96" smashed="yes">
 <attribute name="VALUE" x="187.96" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Y5" gate="G$1" x="38.1" y="157.48" smashed="yes">
-<attribute name="NAME" x="38.608" y="157.48" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="38.608" y="154.94" size="1.778" layer="96" font="vector"/>
+<instance part="Y5" gate="G$1" x="38.1" y="162.56" smashed="yes">
+<attribute name="NAME" x="38.608" y="162.56" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="38.608" y="160.02" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="30.48" y="149.86" smashed="yes">
-<attribute name="NAME" x="22.86" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.86" y="144.78" size="1.778" layer="96"/>
+<instance part="J5" gate="G$1" x="30.48" y="154.94" smashed="yes">
+<attribute name="NAME" x="22.86" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="30.48" y="139.7" smashed="yes">
-<attribute name="VALUE" x="30.48" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="30.48" y="144.78" smashed="yes">
+<attribute name="VALUE" x="30.48" y="144.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Y6" gate="G$1" x="198.12" y="162.56" smashed="yes">
-<attribute name="NAME" x="201.168" y="157.48" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="201.168" y="155.194" size="1.778" layer="96" font="vector"/>
+<instance part="Y6" gate="G$1" x="198.12" y="167.64" smashed="yes">
+<attribute name="NAME" x="201.168" y="162.56" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="201.168" y="160.274" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="190.5" y="149.86" smashed="yes">
-<attribute name="NAME" x="182.88" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="182.88" y="144.78" size="1.778" layer="96"/>
+<instance part="J6" gate="G$1" x="190.5" y="154.94" smashed="yes">
+<attribute name="NAME" x="182.88" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="182.88" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="190.5" y="139.7" smashed="yes">
-<attribute name="VALUE" x="190.5" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="190.5" y="144.78" smashed="yes">
+<attribute name="VALUE" x="190.5" y="144.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="200.66" y="147.32" smashed="yes">
-<attribute name="VALUE" x="200.66" y="147.066" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="200.66" y="152.4" smashed="yes">
+<attribute name="VALUE" x="200.66" y="152.146" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Y7" gate="G$1" x="109.22" y="162.56" smashed="yes">
-<attribute name="NAME" x="112.268" y="157.48" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="112.268" y="155.194" size="1.778" layer="96" font="vector"/>
+<instance part="Y7" gate="G$1" x="109.22" y="167.64" smashed="yes">
+<attribute name="NAME" x="112.268" y="162.56" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="112.268" y="160.274" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="149.86" y="38.1" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="149.86" y="38.1" smashed="yes"/>
@@ -8369,41 +8382,41 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="FEED1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="SIGNAL"/>
-<wire x1="106.68" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="149.86" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="154.94" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="Y7" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="101.6" y1="144.78" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="149.86" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="152.4" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="157.48" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="Y7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="71.12" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="40.64" y1="73.66" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="104.14" y1="66.04" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y3" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="114.3" y1="73.66" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="78.74" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y4" gate="G$1" pin="GND"/>
@@ -8419,33 +8432,33 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <pinref part="J5" gate="G$1" pin="GND"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="30.48" y1="142.24" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="147.32" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="GND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="190.5" y1="142.24" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="147.32" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y6" gate="G$1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="200.66" y1="149.86" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="154.94" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FEED3" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="SIGNAL"/>
-<wire x1="35.56" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="Y2" gate="G$1" pin="SIGNAL"/>
-<wire x1="38.1" y1="73.66" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="78.74" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FEED4" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="SIGNAL"/>
-<wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="Y3" gate="G$1" pin="SIGNAL"/>
-<wire x1="111.76" y1="73.66" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="78.74" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FEED5" class="0">
@@ -8467,17 +8480,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="FEED2" class="0">
 <segment>
 <pinref part="Y5" gate="G$1" pin="SIGNAL"/>
-<wire x1="38.1" y1="152.4" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="157.48" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="SIGNAL"/>
-<wire x1="38.1" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FEED6" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="SIGNAL"/>
-<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="Y6" gate="G$1" pin="SIGNAL"/>
-<wire x1="198.12" y1="149.86" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="154.94" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
