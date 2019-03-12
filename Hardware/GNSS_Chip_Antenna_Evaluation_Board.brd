@@ -40,8 +40,8 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
@@ -164,7 +164,7 @@
 <wire x1="60.96" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="35.56" width="0.2032" layer="20"/>
 <text x="0" y="-0.0635" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
-<text x="20.701" y="0.254" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">V10</text>
+<text x="19.304" y="0.889" size="1.27" layer="16" font="vector" ratio="20" rot="MR0" align="center">V10</text>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <text x="67.31" y="39.37" size="1.27" layer="51">0.8mm Board Thickness</text>
 <wire x1="48.26" y1="35.56" x2="48.26" y2="0" width="0.2032" layer="20"/>
@@ -245,16 +245,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
-</package>
-<package name="CREATIVE_COMMONS">
-<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
-&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
-&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="SFE_LOGO_FLAME_COPPER_EXPOSED_.1">
 <description>&lt;h3&gt;SparkFun Flame Logo - 0.1" Height - Top Copper (Exposed)&lt;/h3&gt;
@@ -1549,6 +1539,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.091" y="-0.565"/>
 <vertex x="4.091" y="0.675"/>
 </polygon>
+</package>
+<package name="CREATIVE_COMMONS">
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 </packages>
 </library>
@@ -5865,13 +5865,9 @@ Antenna</text>
 <elements>
 <element name="JP5" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="45.72" y="20.32" smashed="yes" rot="R180"/>
 <element name="JP6" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="27.94" y="33.02" smashed="yes" rot="R180"/>
-<element name="JP8" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49.022" y="34.671" smashed="yes"/>
+<element name="JP8" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49.022" y="34.798" smashed="yes"/>
 <element name="JP9" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="0.762" y="0.762" smashed="yes"/>
 <element name="U$16" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="36.83" y="2.54" smashed="yes" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="1.27" y="-15.24" smashed="yes">
-<attribute name="DESIGNER" value="" x="1.27" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="1.27" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 <element name="J1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="34.29" y="32.004" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="30.734" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09193" x="34.29" y="32.004" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -6013,6 +6009,10 @@ Antenna</text>
 <element name="U$33" library="buzzard_labels (1)" package="W30112" value="" x="44.45" y="27.432" smashed="yes" rot="MR0"/>
 <element name="U$35" library="buzzard_labels (1)" package="W3062A3" value="" x="53.848" y="35.814" smashed="yes" rot="MR270"/>
 <element name="U$37" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="12.827" y="9.652" smashed="yes" rot="MR0"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="3.81" y="-12.7" smashed="yes">
+<attribute name="DESIGNER" value="" x="3.81" y="-12.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="3.81" y="-12.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6347,9 +6347,9 @@ Antenna</text>
 <contactref element="J1" pad="FEED"/>
 <contactref element="Y7" pad="1"/>
 <wire x1="38.7934" y1="33.815" x2="39.04" y2="33.815" width="0.1524" layer="1"/>
-<wire x1="38.387" y1="33.815" x2="39.04" y2="33.815" width="0.2032" layer="1"/>
 <wire x1="34.29" y1="33.529" x2="34.576" y2="33.815" width="0.878840625" layer="1"/>
-<wire x1="34.576" y1="33.815" x2="38.387" y2="33.815" width="0.878840625" layer="1"/>
+<wire x1="38.387" y1="33.815" x2="34.576" y2="33.815" width="0.878840625" layer="1"/>
+<wire x1="39.04" y1="33.815" x2="38.387" y2="33.815" width="0.1524" layer="1"/>
 </signal>
 <signal name="FEED3">
 <contactref element="J2" pad="FEED"/>
@@ -6360,7 +6360,6 @@ Antenna</text>
 <signal name="FEED4">
 <contactref element="J3" pad="FEED"/>
 <contactref element="Y3" pad="FEED"/>
-<wire x1="31.36158125" y1="9.779" x2="31.39058125" y2="9.75" width="0.878840625" layer="1"/>
 <wire x1="29.465" y1="9.779" x2="31.36158125" y2="9.779" width="0.878840625" layer="1"/>
 <wire x1="31.5" y1="9.75" x2="31.471" y2="9.779" width="0.2032" layer="1"/>
 <wire x1="31.471" y1="9.779" x2="31.36158125" y2="9.779" width="0.2032" layer="1"/>
@@ -6384,7 +6383,6 @@ Antenna</text>
 <contactref element="Y5" pad="FEED"/>
 <contactref element="J5" pad="FEED"/>
 <wire x1="2.159" y1="29.211003125" x2="2.159" y2="32.004996875" width="0.878840625" layer="1"/>
-<wire x1="2.159" y1="32.004996875" x2="2.114" y2="32.049996875" width="0.878840625" layer="1"/>
 <wire x1="2.114" y1="32.05" x2="2.159" y2="32.005" width="0.2032" layer="1"/>
 <wire x1="2.159" y1="32.005" x2="2.159" y2="32.004996875" width="0.2032" layer="1"/>
 <wire x1="2.159" y1="29.211" x2="2.159" y2="29.211003125" width="0.2032" layer="1"/>
@@ -6441,14 +6439,11 @@ Antenna</text>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,98ac66ac9aae9a50"/>
-<approved hash="21,19,3ba939ab39ab3ba9"/>
-<approved hash="21,19,4238be3ac03ac3c6"/>
-<approved hash="21,19,ba35b837b837ba35"/>
-<approved hash="21,19,4f9f4d9d4a9d489f"/>
-<approved hash="21,19,90e76ce710e7111b"/>
-<approved hash="21,19,7cc47c447e45fe46"/>
-<approved hash="6,1,29e185e2dffe0a00"/>
+<approved hash="21,19,d1272d2751275edb"/>
+<approved hash="21,19,af04af84ad852d86"/>
+<approved hash="21,19,3d8e3f8c3f8c3d8e"/>
+<approved hash="21,19,b8bc46bcbabeba40"/>
+<approved hash="21,19,5d9f5f9d5e9d5c9f"/>
 </errors>
 </board>
 </drawing>
