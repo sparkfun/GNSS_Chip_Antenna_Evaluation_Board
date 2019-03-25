@@ -7405,7 +7405,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.524" y1="1.016" x2="-1.524" y2="1.778" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="1.778" x2="-1.016" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="2.286" x2="-0.254" y2="2.286" width="0.1524" layer="21"/>
-<rectangle x1="0.1905" y1="-0.508" x2="0.8255" y2="0.508" layer="21"/>
+<rectangle x1="0.254" y1="-0.5715" x2="0.762" y2="0.5715" layer="21"/>
 </package>
 </packages>
 <symbols>
