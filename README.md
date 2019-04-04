@@ -13,6 +13,11 @@ Repository Contents
 * **/Documents** - Antenna datasheets
 * **/Hardware** - Eagle files
 
+Documentation
+-------------------
+
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gnss-chip-antenna-hookup-guide)**
+
 License Information
 -------------------
 
