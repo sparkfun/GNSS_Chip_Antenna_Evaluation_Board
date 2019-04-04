@@ -17,9 +17,7 @@ Documentation
 -------------------
 
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/gnss-chip-antenna-hookup-guide)** - Basic hookup guide for the antenna evaluation board
-* **[Three Quick Tips About Using U.FL](https://learn.sparkfun.com/tutorials/three-quick-tips-about-using-ufl)** - Quick tips regarding how to connect, protect, and disconnect U.FL connectors.
-
-
+* **[Three Quick Tips About Using U.FL](https://learn.sparkfun.com/tutorials/three-quick-tips-about-using-ufl)** - Quick tips regarding how to connect, protect, and disconnect U.FL connectors
 
 License Information
 -------------------
