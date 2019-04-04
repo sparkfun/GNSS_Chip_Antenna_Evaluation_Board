@@ -1,9 +1,9 @@
 SparkFun GNSS Chip Antenna Evaluation Board
 ===========================================================
 
-[![SparkFun GPS-RTK2 - ZED-F9P](https://cdn.sparkfun.com//assets/parts/1/3/5/1/4/15136-SparkFun_GPS-RTK2_Board_-_ZED-F9P__Qwiic_-03.jpg)](https://www.sparkfun.com/products/15136)
+[![SparkFun GNSS Chip Antenna Eval Board](https://cdn.sparkfun.com//assets/parts/1/3/7/1/2/15247-SparkFun_GNSS_Chip_Antenna_Evaluation_Board-01.jpg)](https://www.sparkfun.com/products/15247)
 
-[*SparkFun GPS-RTK2 - ZED-F9P (GPS-15136)*](https://www.sparkfun.com/products/15136)
+[*SparkFun GNSS Chip Antenna Eval Board (GPS-15247)*](https://www.sparkfun.com/products/15247)
 
 The GNSS Chip Evaluation board allows for quick testing of various chip scale GPS and GNSS antennas. Various sizes and manufacturers allow the user to see for themselves how their GPS receiver will preform with each extremely small GPS antenna.
 
